@@ -41,3 +41,51 @@ Where:
 - \(\bar{y}\) is the mean of the dependent variable.
 - \(\bar{x}\) is the mean of the independent variable.
 
+
+
+
+
+
+
+What is Linear Regression?
+
+Linear Regression is a supervised learning algorithm used to model the relationship between a dependent variable y and one or more independent variables x.
+In the simple linear regression case, we model the relationship as:
+
+
+
+Here:
+
+y is the dependent variable (what we want to predict)
+
+x is the independent variable (input)
+
+m is the slope (how much y changes when x changes)
+
+b is the y-intercept (value of y when x = 0)
+
+Objective: Minimize Error
+
+We want to find the line  that best fits the data.
+To do that, we minimize the error between the predicted y and actual y for all points. The most common approach is Least Squares Method:
+
+
+
+This is the Sum of Squared Errors (SSE). The smaller the cost, the better the line fits the data.
+
+Derivation of m and b (Using Calculus)
+
+To minimize the cost, we take the partial derivatives with respect to m and b, set them to 0, and solve:
+
+The resulting formulas are:
+
+
+
+
+
+Where:
+
+ is the mean of all x values
+
+ is the mean of all y values
+
